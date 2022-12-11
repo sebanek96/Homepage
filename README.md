@@ -1,6 +1,6 @@
 # Sebastian Skarbek - My homepage
 
-![Sebastian](images/seba.jpg)
+![Sebastian](images/Seba.jpg)
 
 ## Demo
 
