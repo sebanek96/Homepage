@@ -1,0 +1,46 @@
+html{
+    box-sizing: border-box;
+    width: 1000px;
+}
+
+* , ::after , ::before{
+    box-sizing: inherit;
+}
+
+.body{
+    background-color: #0000ff10;
+    width: 1000px;
+}
+
+.naglowki{
+    color: #0000ff;
+    background-color: #0000ff10;
+    text-align: center;
+}
+
+.zdjecie{
+    margin:0 auto;
+    display:block;
+    
+}
+
+.tekstOMnie{
+    text-align: center;
+}
+
+.tekstCzymSieZajmuje{
+    text-align: center;
+}
+
+.tekstZainteresowania{
+    text-align: center;
+}
+
+.przycisk{
+    margin:0 auto;
+    display:block;
+}
+
+.waznyTekst{
+    color: red;
+}
