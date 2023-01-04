@@ -18,7 +18,7 @@ html{
     text-align: center;
 }
 
-.zdjecie{
+.photo{
     margin:0 auto;
     display:block;
     
@@ -36,7 +36,7 @@ html{
     text-align: center;
 }
 
-.przycisk{
+.removeButton{
     margin:0 auto;
     display:block;
 }
