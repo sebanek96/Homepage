@@ -1,22 +1,19 @@
 {
     const welcome = () => {
-        console.log("Welcome on my first webside");
-    }
-
-    const photoRemove = () => {
-        photo.remove();
-        button.remove();
-
-        const button = document.querySelector("removeButton");
-        const photo = document.querySelector(".photo");
-
-        button.addEventListener("click", photoRemove);
-        photoRemove();
+      console.log("Welcome on my first webside");
     };
-
-    welcome();
+  
+    const button = document.querySelector(".removeButton");
+  
+    const photoRemove = () => {
+      const photo = document.querySelector(".photo");
+      photo.remove();
+      button.remove();
+    };
     
-};
+    button.addEventListener("click", photoRemove);
+    welcome();
+  }
 
 
 
