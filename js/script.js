@@ -15,11 +15,13 @@
 
     const button = document.querySelector(".removeButton");
 
-    button.addEventListener("click", photoRemove,);
+    button.addEventListener("click", () => {
+      photoRemove(button)
+    });
 
     welcome();
   }
-  
+
   init();
 
 }
