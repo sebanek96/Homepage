@@ -19,6 +19,7 @@
 
     welcome();
   }
+  
   init();
 
 }
